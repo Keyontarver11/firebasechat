@@ -1,0 +1,14 @@
+{
+  "name": "firebasechat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "firebase chat",
+  "scripts": {
+    "start": "reload -b --port 8025"
+  },
+  "author": "Keyon Tarver",
+  "license": "ISC",
+  "dependencies": {
+    "reload": "^2.3.0"
+  }
+}

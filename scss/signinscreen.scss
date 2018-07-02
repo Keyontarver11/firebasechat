@@ -1,0 +1,51 @@
+.sign-in-screen {
+  .maincontainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-right: 25px;
+    background: linear-gradient(darkorchid, white);
+
+    .imgcontainer {
+      .logo {
+        width: 350px;
+      }
+    }
+
+    .inputcontainer {
+      .inputwrap1 {
+        margin-bottom: 5px;
+      }
+      .inputwrap1,
+      .inputwrap {
+        text-align: center;
+        font-size: 16px;
+        font-family: "Crafty Girls", cursive;
+      }
+    }
+
+    .buttoncontainer {
+      .button-container {
+        display: flex;
+      }
+      .signup {
+        @extend %buttons;
+      }
+      .signin {
+        @extend %buttons;
+        
+      }
+    }
+
+    .buttoncontainer2 {
+      display: flex;
+      flex: row;
+      justify-content: space-evenly;
+      width: 250px;
+    }
+  }
+}

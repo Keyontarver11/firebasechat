@@ -1,0 +1,51 @@
+$font: "Nanum Pen Script", cursive;
+$colorb: cornflowerblue;
+$colorp: darkorchid;
+
+%buttons {
+  position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: "Crafty Girls", cursive;
+	font-size: 25px;
+	color: white;
+  background-color:darkorchid;
+	text-decoration: none;	
+border-bottom: 5px solid white;
+  // text-shadow: 0px -2px $colorb;
+  &:active
+  {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+  }
+}
+
+
+
+%sendmessagebutton {
+  width: 50px;
+  padding: 10px;
+  #sendmessagebutton:hover {
+    background-color: transparent;
+  }
+  #sendmessagebutton:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $colorp;
+  font-family: $font;
+}
+
+input {
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+}
